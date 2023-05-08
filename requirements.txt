@@ -1,0 +1,13 @@
+omegaconf
+numpy
+numpy-quaternion
+warp-lang==0.7.2
+nimblephysics
+taichi==1.4.1
+jax==0.4.1
+jaxlib==0.4.1
+jaxopt==0.6
+orbax==0.1.3
+chex==0.1.6
+flax==0.6.3
+brax==0.1.0

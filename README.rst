@@ -7,7 +7,7 @@ PhyFu
 
 
 
-A Fuzzer for Modern Physics Simulation Engines
+A fuzzer for modern physics simulation engines
 
 
 
