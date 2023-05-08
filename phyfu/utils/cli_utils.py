@@ -2,7 +2,7 @@ import argparse
 
 
 MODULE_CHOICES = ["brax", "nimble", "taichi", "warp"]
-MODEL_NAME_CHOICES = ["two_balls", "ur5e", "catapult", "snake", "mpm"]
+MODEL_NAME_CHOICES = ["two_balls", "ur5e", "catapult", "snake", "mpm", "atlas"]
 
 
 def create_parser():
