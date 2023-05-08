@@ -19,6 +19,8 @@ A Logic Bug Detector for Physics Simulation Engines
 <br>
 [Philosophy](#-philosophy)
 •
+[Misc](#-misc)
+•
 [Credits](#credits)
 
 </div>
