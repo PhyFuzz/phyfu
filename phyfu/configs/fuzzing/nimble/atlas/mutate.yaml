@@ -1,0 +1,30 @@
+model_def:
+    name: atlas
+    dt: 1e-3
+    substeps: 1
+disable_logging: False
+num_steps: 100
+test_times: 100
+lr: 5e-3
+loss_func: linear
+opt: Adam
+seed_getter:
+    type: art
+    art_params:
+        init_pop_size: 10
+        cand_size: 10
+        refresh_prob: 0.1
+    min_steps: 50
+    max_steps: 300
+    reset_freq: 20
+act_std: 1
+max_non_zero_act_steps: 20
+mut_dev: 0.05
+mut_steps: 10
+loss_utils:
+    max_epochs: 500
+    threshold_sigma: 3
+    max_len: 50
+    display_freq: 3
+    converge_threshold: 1.0e-1
+use_gui: False
