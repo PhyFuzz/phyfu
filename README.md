@@ -88,7 +88,7 @@ To install PhyFu in production mode, run `make install` instead of `make develop
 To quickly try our tool, run the following to fuzz the `Taichi` PSE with 200 seeds and seed scheduling enabled:
 
 ```bash
-phyfu.fuzz taichi two_balls both --test_times 200 --seed_getter art
+phyfu.fuzz taichi two_balls --test_times 200 --seed_getter art
 ```
 
 Wait for about 3 minutes, and you will see the following output in the end:
