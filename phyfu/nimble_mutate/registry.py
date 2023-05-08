@@ -21,6 +21,10 @@ class NimbleRegistry:
         "catapult": {
             "fuzz": model_loader.Catapult,
             "find_errors": bug_oracle.NimbleOracle
+        },
+        "atlas": {
+            "fuzz": Atlas,
+            "find_errors": bug_oracle.NimbleOracle
         }
     }
 
