@@ -106,7 +106,7 @@ There are three things that you can do next:
 2. Analyze the errors found by PhyFu in the large scale experiments.
 3. Extend PhyFu to test more PSEs and physical scenarios.
 
-Setting these up is discussed in the [readthedocs](https://readthedocs.org/), so be sure to check there if you are interested!
+Setting these up is discussed in the [readthedocs](https://phyfu.readthedocs.io/en/latest/), so be sure to check there if you are interested!
 
 ## ❓ Philosophy
 
@@ -118,8 +118,8 @@ One of the key challenges in detecting logic errors is designing an oracle that 
 
 ## 📚 FAQ
 
-The [readthedocs](https://readthedocs.org/) is the go-to place if you need answers to anything PhyFu-related. Usage, APIs, Extensions?
-It's all there, so we recommend you seriously go [read it](https://reathedocs.org/)!
+The [readthedocs](https://phyfu.readthedocs.io/en/latest/) is the go-to place if you need answers to anything PhyFu-related. Usage, APIs, Extensions?
+It's all there, so we recommend you seriously go [read it](https://phyfu.readthedocs.io/en/latest/)!
 
 ## Credits
 
