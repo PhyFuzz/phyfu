@@ -8,7 +8,8 @@ Welcome to PhyFu's documentation!
    readme
    installation
    usage
-   modules
+   api
+   extension
    contributing
    history
 
