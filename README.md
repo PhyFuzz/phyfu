@@ -121,6 +121,12 @@ One of the key challenges in detecting logic errors is designing an oracle that 
 The [readthedocs](https://phyfu.readthedocs.io/en/latest/) is the go-to place if you need answers to anything PhyFu-related. Usage, APIs, Extensions?
 It's all there, so we recommend you seriously go [read it](https://phyfu.readthedocs.io/en/latest/)!
 
+## 🍀 Misc
+
+The hyper-parameters we use are all listed in `phyfu/configs/`. For the meaning and usage of each hyper-parameter, please refer to the [readthedocs](https://phyfu.readthedocs.io/en/latest/extension.html).
+
+For the omitted proofs of some theorems in the paper, please refer to [here](https://github.com/PhyFuzz/phyfu/tree/main/docs/proof.pdf).
+
 ## Credits
 
 This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [`audreyr/cookiecutter-pypackage`](https://github.com/audreyr/cookiecutter-pypackage) project template.
