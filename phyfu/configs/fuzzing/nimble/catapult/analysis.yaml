@@ -1,0 +1,5 @@
+time_stamp: "0505_1200"
+min_loss_threshold: 1e-1
+diff_tolerance: 3e-3
+sigma: 3
+write_to_file: True

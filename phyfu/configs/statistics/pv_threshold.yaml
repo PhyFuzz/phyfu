@@ -1,0 +1,39 @@
+- module: "nimble"
+  model_name: "two_balls"
+  pt: 1e-3
+  vt: 1e-4
+
+- module: "nimble"
+  model_name: "catapult"
+  pt: 1e-1
+  vt: 1e-1
+
+- module: "taichi"
+  model_name: "two_balls"
+  pt: 5e-2
+  vt: 5e-3
+
+- module: "taichi"
+  model_name: "mpm"
+  pt: 1e-1
+  vt: 1e-1
+
+- module: "warp"
+  model_name: "two_balls"
+  pt: 1e-1
+  vt: 1e-1
+
+- module: "warp"
+  model_name: "snake"
+  pt: 1e-1
+  vt: 1e-1
+
+- module: "brax"
+  model_name: "two_balls"
+  pt: 2e-3
+  vt: 1e-3
+
+- module: "brax"
+  model_name: "ur5e"
+  pt: 0.1
+  vt: 0.1

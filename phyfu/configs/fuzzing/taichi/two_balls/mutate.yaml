@@ -1,0 +1,35 @@
+model_def:
+  name: "two_balls"
+  radius: 0.1
+  elasticity: 1
+  plane_pos: [[-1], [1]]
+  init_pos: [[0], [0.5]]
+  init_vel: [[1], [0]]
+use_gpu: False
+disable_logging: False
+dt: 0.01
+num_steps: 100
+test_times: 10000
+lr: 1e-3
+loss_func: linear
+opt: Adam
+seed_getter:
+  type: random
+  art_params:
+    cand_size: 10
+    init_pop_size: 10
+    refresh_prob: 0.1
+  reset_freq: 500
+  min_steps: 20
+  max_steps: 30
+  max_vel_allowed: 20 # Calculated by 2 * radius / dt
+  act_std: [[5], [5]]
+mut_dev: 0.05
+mut_steps: 1
+loss_utils:
+  max_epochs: 500
+  threshold_sigma: 3
+  max_len: 100
+  display_freq: 30
+  converge_threshold: 1.0e-2
+use_gui: False

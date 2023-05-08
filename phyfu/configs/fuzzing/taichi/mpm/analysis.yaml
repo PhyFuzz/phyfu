@@ -1,0 +1,6 @@
+extra_paths: "art"
+min_loss_threshold: 2e-2
+diff_tolerance: 1e-2
+cnt_tolerance: 300
+sigma: 3
+write_to_file: True

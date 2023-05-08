@@ -1,0 +1,31 @@
+model_def:
+  name: ur5e
+  time_step: 0.02
+  substeps: 8
+  dynamics_mode: pbd
+disable_logging: false
+num_steps: 100
+test_times: 10000
+lr: 1e-3
+loss_func: linear
+opt: Adam
+seed_getter:
+  type: random
+  art_params:
+    init_pop_size: 200
+    cand_size: 200
+    refresh_prob: 0.1
+  min_steps: 10
+  max_steps: 100
+  reset_freq: 1000
+  max_v_allowed: 3
+  max_w_allowed: 4
+  act_std: [0.1, 0.05, 0.05, 0.05, 0.1, 0.05]
+mut_dev: 0.05
+mut_steps: 2
+loss_utils:
+  max_epochs: 500
+  threshold_sigma: 3
+  max_len: 100
+  display_freq: 30
+  converge_threshold: 1.0e-2

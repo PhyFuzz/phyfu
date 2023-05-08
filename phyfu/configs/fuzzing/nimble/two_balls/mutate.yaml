@@ -1,0 +1,35 @@
+model_def:
+  name: two_balls
+  radius: 0.01
+  dt: 1e-3
+  substeps: 3
+  wall_pos: 0.15
+  grace_gap: 0.01
+  init_pos: 0.1
+  init_vel: 1
+disable_logging: False
+num_steps: 100
+test_times: 10000
+lr: 5e-3
+loss_func: linear
+opt: Adam
+seed_getter:
+  type: art
+  art_params:
+    init_pop_size: 50
+    cand_size: 100
+    refresh_prob: 0.1
+  min_steps: 20
+  max_steps: 30
+  reset_freq: 100
+  act_std: [30, 30]
+max_non_zero_act_steps: 20
+mut_dev: 0.05
+mut_steps: 1
+loss_utils:
+  max_epochs: 500
+  threshold_sigma: 3
+  max_len: 100
+  display_freq: 30
+  converge_threshold: 1.0e-3
+use_gui: False
