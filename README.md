@@ -7,7 +7,7 @@
 <a href="#"> ![Version](https://img.shields.io/badge/PhyFu%200.1.0-brightgreen?style=for-the-badge) </a>
 <a href="#"> ![Errors](https://img.shields.io/badge/%23errors-5K%2B-9cf?style=for-the-badge) </a>
 <a href="#"> ![Crashes](https://img.shields.io/badge/%23crashes-20%2B-7289da?style=for-the-badge) </a>
-<a href="#"> ![License](https://img.shields.io/badge/license-GitHub-green?style=for-the-badge)</a>
+<a href="https://github.com/PhyFuzz/phyfu/blob/main/LICENSE"> ![License](https://img.shields.io/badge/license-HKUST-green?style=for-the-badge)</a>
 
 A Logic Bug Detector for Physics Simulation Engines
 
