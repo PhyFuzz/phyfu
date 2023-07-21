@@ -120,6 +120,8 @@ One of the key challenges in detecting logic errors is designing an oracle that 
 2. Further with feedback-driven test case scheduling, the search process for errors is significantly accelerated.
 3. PhyFu also leverages a set of design choices to ensure the validity of testing seeds.
 
+For more details, please refer to our [paper](#paper).
+
 ## 📚 FAQ
 
 The [readthedocs](https://phyfu.readthedocs.io/en/latest/) is the go-to place if you need answers to anything PhyFu-related. Usage, APIs, Extensions?
