@@ -22,6 +22,8 @@ A Logic Bug Detector for Physics Simulation Engines
 [Misc](#-misc)
 •
 [Credits](#credits)
+•
+[Paper](#paper)
 
 </div>
 
@@ -133,3 +135,28 @@ For the omitted proofs of some theorems in the paper, please refer to [here](htt
 
 This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [`audreyr/cookiecutter-pypackage`](https://github.com/audreyr/cookiecutter-pypackage) project template.
 This REAME file is adapted from [`nvim-neorg/neorg`](https://github.com/nvim-neorg/neorg).
+
+## Paper
+
+This paper is accepted at The 38th IEEE/ACM International Conference on Automated Software Engineering, a.k.a. [ASE 2023](https://conf.researchr.org/home/ase-2023). Please cite the published version as soon as this paper appears in the conference publications.
+
+<details><summary><b> 📜 PHYFU: Fuzzing Modern Physics Simulation Engines.</b> <i>[click :: citation]</i></summary>
+<div>
+
+```bibtex
+@misc{xiao2023phyfu,
+      title={PHYFU: Fuzzing Modern Physics Simulation Engines}, 
+      author={Dongwei Xiao and Zhibo Liu and Shuai Wang},
+      year={2023},
+      eprint={2307.10818},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE}
+}
+```
+
+</div>
+</details>
+
+<p align="center">
+    <a href="https://arxiv.org/abs/2307.10818"><img src="https://img.shields.io/badge/arXiv-2307.10818-b31b1b.svg"></a>
+</p>
